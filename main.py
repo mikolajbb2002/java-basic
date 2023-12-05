@@ -12,7 +12,5 @@ if first_choice=="left":
             print("You enter a room of beasts. Game Over.")
     else:
         print("You get attacked by an angry trout. Game Over.")
-
 else:
-
     print("You fell into a hole. Game Over.")
