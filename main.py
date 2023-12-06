@@ -7,6 +7,7 @@
 #else:
 #    print("Jedynka znajduje sie na:" + str(miejsce))
 
+
 miasto = input("Podaj miasto w ktorym dorastales:")
 
 imie= input("Podaj imie zwierzaka")
