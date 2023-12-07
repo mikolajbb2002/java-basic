@@ -51,6 +51,7 @@ elif choice == 2:
           (____)
     ---.__(___)'''
 
+
 if  choice==r1:
     print(f"{ch2} {r2} + remis")
 elif (choice==0 and r1==1) or (choice==1 and r1==2) or (choice==2 and r1==0):
