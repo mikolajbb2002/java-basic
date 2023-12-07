@@ -1,15 +1,15 @@
-#
-#   first_num = input("Na ktorym miejscu znajduje sie 1  ")
-#finder = (first_num.find("1"))
-#miejsce = (int(finder) + 1)
-#if miejsce==0:
-#    print("nie ma 1 w tej liczbie ")
-#else:
-#    print("Jedynka znajduje sie na:" + str(miejsce))
+line1 = ["⬜️","️⬜️","️⬜️"]
+line2 = ["⬜️","⬜️","️⬜️"]
+line3 = ["⬜️️","⬜️️","⬜️️"]
+map = [line1, line2, line3]
+print("Hiding your treasure! X marks the spot.")
+position = input()
+letter = position[0].lower()
+number = int(position[1])-1
+abc = ["a", "b", "c"]
+num = [1,2,3]
+letter_index = abc.index(letter)
+num_index = num.index(number)
+map[letter_index][num_index]= "X"
 
-
-miasto = input("Podaj miasto w ktorym dorastales:")
-
-imie= input("Podaj imie zwierzaka")
-print("Nazwa twojej kapeli to: " + miasto + imie)
-print(len(miasto))
+print(f"{line1}\n{line2}\n{line3}")
